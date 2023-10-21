@@ -27,13 +27,13 @@ public class TC012 extends ProjectWrappers{
 
 				.switchframe()
 				.clickOnTryIt()
-				//.gettheAlert()
-				//.acceptTheAlert()
+				.gettheAlert()
+				.acceptTheAlert()
 				.Switchdefault()
 				.refreshThepage()
 				.switchframe()
 				.clickOnTryIt()
-				//.dismisstheAlert()
+				.dismisstheAlert()
 				.Switchdefault()
 				.clickonHome();
 	}
